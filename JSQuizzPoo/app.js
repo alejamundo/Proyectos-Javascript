@@ -16,6 +16,7 @@ const render = (quiz, ui) => {
         ui.showProgress(quiz.questionIndex+1,quiz.question.length)
     }
 }
+
 function main() {
     const quiz = new Quiz(q);
     const ui = new Ui('Pregunta 1');
