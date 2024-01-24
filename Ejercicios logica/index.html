@@ -5,19 +5,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicios Javascript</title>
+    <style>
+        .parrafoOcultar {
+            display: block;
+        }
+
+        textarea {
+            background-color: black;
+            border-radius: 8%;
+        }
+    </style>
 </head>
 
-<body>
+<body id="body">
     <noscript>
         <p>Bienvenido a Mi Sitio</p>
         <p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript.
             Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo.</p>
     </noscript>
+    <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit . Sed mattis enim vitae orci. Phasellus libero.
+        Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. Quisque sapien nunc, posuere
+        vitae, rutrum et, luctus at, pede.
+        <br> Pellentesque massa ante, ornare id, aliquam vitae, ultrices porttitor, pede. Nullam sit amet nisl elementum
+        elit convallis malesuada. Phasellus magna sem, semper quis, faucibus ut, rhoncus non, mi. Fusce porta . Duis
+        pellentesque, <a href="http://" target="_blank" rel="noopener noreferrer">felis eu adipiscing ullamcorper,</a>
+        felis eu adipiscing ullamcorper, odio urna consequat arcu, at posuere ante quam non dolor. Lorem ipsum dolor sit
+        amet, consectetuer adipiscing elit. Duis scelerisque. Donec lacus neque, vehicula in, eleifend vitae, venenatis
+        ac, felis. Donec arcu. <a href="/">Nam</a> Nam sed tortor nec ipsum aliquam ullamcorper. Duis accumsan metus eu
+        urna. Aenean vitae enim. Integer lacus. Vestibulum <a href="prueba" target="_blank"
+            rel="noopener noreferrer">Aleja</a> venenatis erat eu odio. Praesent id metus.
+    </p>
+    <p id="textovisible">
+        A menudo me gusta disfrutas de los domingo al lado de mi esposo
+    </p>
+    <p id="invisible"> El es irresitible y que!!!!!</p>
+    <a id="mas" href="#">Quieres ver más</a>
+
+    <h1>tareas para hacer</h1>
+    <ul id="lista">
+        <li>Devocional a las 5:30Am</li>
+        <li>Entrenar a las 6:00Am</li>
+        <li>Desayunar y ordenar casa a las 7:00Am</li>
+    </ul>
+    <input type="text" id="tarea">
+    <button id="btnAdd">Añadir tarea</button>
+    <hr>
+    <p class="parrafoOcultar">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci.
+        Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. Quisque sapien
+        nunc, posuere vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id, aliquam vitae, ultrices
+        porttitor, pede. Nullam sit amet nisl elementum elit convallis malesuada. Phasellus magna sem, semper quis,
+        faucibus ut, rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper, odio urna consequat arcu, at
+        posuere ante quam non dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.</p>
+    <a href="" class="ocultar">Ocultar contenidos</a>
+    <p class="parrafoOcultar">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci.
+        Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. Quisque sapien
+        nunc, posuere vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id, aliquam vitae, ultrices
+        porttitor, pede. Nullam sit amet nisl elementum elit convallis malesuada. Phasellus magna sem, semper quis,
+        faucibus ut, rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper, odio urna consequat arcu, at
+        posuere ante quam non dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.</p>
+    <a href="" class="ocultar">Ocultar contenidos</a>
+    <p class="parrafoOcultar">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed mattis enim vitae orci.
+        Phasellus libero. Maecenas nisl arcu, consequat congue, commodo nec, commodo ultricies, turpis. Quisque sapien
+        nunc, posuere vitae, rutrum et, luctus at, pede. Pellentesque massa ante, ornare id, aliquam vitae, ultrices
+        porttitor, pede. Nullam sit amet nisl elementum elit convallis malesuada. Phasellus magna sem, semper quis,
+        faucibus ut, rhoncus non, mi. Duis pellentesque, felis eu adipiscing ullamcorper, odio urna consequat arcu, at
+        posuere ante quam non dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis scelerisque.</p>
+    <a href="" class="ocultar">Ocultar contenidos</a>
+    <textarea id="area" cols="50" rows="30"></textarea>
+    <button id="changeColor">Cambia color</button>
+    <hr>
+    <br><br><br>
+
+    <form action="" id="formulario">
+        <label for="nombre">Nombre:</label> 
+        <input type="text" name="nombre">   <br><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email">   <br><br><br>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea name="comentarios"></textarea>   <br><br><br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password">   <br><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
 
     <!-- <script src="exercise1.js"></script>
     <script src="exercise2.js"></script>
     <script src="exercise3.js"></script> -->
-    <script src="exercise4.js"></script>
+    <!-- <script src="exercise4.js"></script> -->
+    <!-- <script src="exercise5.js"></script> -->
+    <!-- <script src="exercise6.js"></script> -->
+    <!-- <script src="exercise7.js"></script> -->
+    <!-- <script src="exercise8.js"></script> -->
+    <!-- <script src="exercise9.js"></script> -->
+    <!-- <script src="exercise10.js"></script> -->
+    <!-- <script src="exercise11.js"></script> -->
+    <script src="exercise20.js"></script>
 
 
 
