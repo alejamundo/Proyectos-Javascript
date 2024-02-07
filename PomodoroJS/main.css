@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px ;
+}
+#h3{
+    display: flex;
+    justify-content: center;
+    font-size:x-large;
+    color: rgb(151, 97, 21);
+}
+#card{
+    background-color: aliceblue;
+    width: max-content;
+    height: max-content;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 3%;
+    border-top-style: dotted;
+
+} 
+#break{
+    background-color: rgba(3, 146, 24, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;;
+
+}
+#reloj{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+#tasks{
+    font-size: 20px;
+}
+#btnStart{
+    background-color: goldenrod;
+    border: none;
+    border-radius: 3px;
+    padding:6px;
+    margin: 5px;
+    cursor: pointer;
+}
+#btnAdd{
+    background-color: rgb(218, 165, 32);
+    border: none;
+    border-radius: 3px;
+    padding:6px;
+    margin: 5px;
+    cursor: pointer;
+}
+#title{
+    padding: 5px;
+    border: none;
+    background-color: burlywood;
+    border-radius: 2px;   
+}
